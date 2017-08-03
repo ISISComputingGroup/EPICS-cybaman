@@ -3,5 +3,20 @@ OutTerminator = CR;
 
 initialize {
     out "A";
-    # in "";
+    in "";
+}
+
+getA {
+	out "M101";
+	in "%f";
+}
+
+getB {
+	out "M201";
+	in "%f";
+}
+
+getC {
+	out "M301";
+	in "%f";
 }
