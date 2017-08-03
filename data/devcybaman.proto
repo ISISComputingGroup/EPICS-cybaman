@@ -35,3 +35,8 @@ homeC {
 	out "B9003R";
 	in "";
 }
+
+reset {
+	out "$$$";
+	in "";
+}
