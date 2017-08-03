@@ -20,3 +20,18 @@ getC {
 	out "M301";
 	in "%f";
 }
+
+homeA {
+	out "B9001R";
+	in "";
+}
+
+homeB {
+	out "B9002R";
+	in "";
+}
+
+homeC {
+	out "B9003R";
+	in "";
+}
