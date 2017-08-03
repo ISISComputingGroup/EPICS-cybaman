@@ -48,6 +48,7 @@ stop {
 
 sendValues {
 	out "OPEN PROG 10 CLEAR" LF "G1 A %(A)f B %(B)f C %(C)f TM%(D)i" CR "CLOSE";
+	out "B10R";
 	in "";
 }
 
