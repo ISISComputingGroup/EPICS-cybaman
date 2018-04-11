@@ -8,17 +8,17 @@ initialize {
 
 getA {
 	out "M101";
-	in "%f";
+	in "%f" CR;
 }
 
 getB {
 	out "M201";
-	in "%f";
+	in "%f" CR;
 }
 
 getC {
 	out "M301";
-	in "%f";
+	in "%f" CR;
 }
 
 homeA {
