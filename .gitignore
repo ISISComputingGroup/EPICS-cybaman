@@ -22,3 +22,7 @@ relPaths.sh
 *_built_positions.req
 *_built_settings.req
 NULL
+__pycache__/
+*.py[cod]
+*$py.class
+/test-reports/
