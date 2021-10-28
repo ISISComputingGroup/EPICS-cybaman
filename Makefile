@@ -27,3 +27,6 @@ iocBoot_DEPEND_DIRS += $(filter %App,$(DIRS))
 # Add any additional dependency rules here:
 
 include $(TOP)/configure/RULES_TOP
+
+ioctests:
+	.\system_tests\run_tests.bat
